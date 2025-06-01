@@ -45,7 +45,7 @@ const CallToActionSection = () => {
                   <h3 className="text-white font-semibold text-center text-base sm:text-lg drop-shadow-sm">Cyber Guardians</h3>
                 </div>
                 <div className="flex-grow flex flex-col items-center justify-center p-3 sm:p-4 space-y-4">
-                  <Image src="/1.png" alt="Cyber Guardians App Icon" width={90} height={90} className="rounded-2xl sm:rounded-3xl shadow-lg transform group-hover:scale-105 transition-transform duration-300" />
+                  <Image src="/cybergaurd/1.png" alt="Cyber Guardians App Icon" width={90} height={90} className="rounded-2xl sm:rounded-3xl shadow-lg transform group-hover:scale-105 transition-transform duration-300" />
                   <p className="text-slate-800 dark:text-slate-100 font-medium sm:font-semibold text-lg sm:text-xl text-center">Your Safety, Simplified.</p>
                   <div className="w-16 h-1.5 bg-green-400 dark:bg-green-500 rounded-full mt-1 sm:mt-2"></div>
                   <p className="text-xs text-slate-500 dark:text-slate-400">Loading interface...</p>

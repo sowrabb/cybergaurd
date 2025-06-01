@@ -42,7 +42,7 @@ const SolutionSection = () => {
                   <h3 className="text-white font-semibold text-center text-base sm:text-lg drop-shadow-sm">Cyber Guardians</h3>
                 </div>
                 <div className="flex-grow flex flex-col items-center justify-center p-3 sm:p-4 space-y-4 text-white">
-                  <Image src="/1.png" alt="Cyber Guardians App Icon" width={80} height={80} className="rounded-2xl shadow-md transform group-hover:scale-105 transition-transform duration-300" />
+                  <Image src="/cybergaurd/1.png" alt="Cyber Guardians App Icon" width={80} height={80} className="rounded-2xl shadow-md transform group-hover:scale-105 transition-transform duration-300" />
                   <p className="font-medium sm:font-semibold text-lg sm:text-xl text-center drop-shadow-sm">Your Safety, Simplified.</p>
                   <div className="space-y-1.5 w-full px-2 sm:px-4">
                     <div className="flex items-center bg-white/20 p-2 rounded-md shadow-sm">

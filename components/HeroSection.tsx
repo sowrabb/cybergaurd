@@ -28,7 +28,7 @@ const HeroSection = () => {
               alt="Elderly woman smiling while using her phone, with a computer and security icons illustrating digital safety."
               className="object-cover"
               fill
-              src="/hero.jpg"
+              src="/cybergaurd/hero.jpg"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 50vw"
               priority
             />
