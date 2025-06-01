@@ -66,20 +66,6 @@ const WhyChooseUsSection = () => {
           ))}
         </div>
 
-        <div className="mt-16 md:mt-20 lg:mt-24 text-center bg-gradient-to-br from-slate-100 via-slate-100 to-slate-200 dark:from-slate-900 dark:via-slate-800/80 dark:to-slate-800/70 p-8 md:p-10 lg:p-12 rounded-xl md:rounded-2xl shadow-xl relative overflow-hidden ring-1 ring-slate-200/70 dark:ring-slate-700/50">
-           <MessageSquareQuote size={40} className="absolute top-5 left-5 md:top-6 md:left-6 text-slate-300 dark:text-slate-600/70 opacity-50 transform -rotate-12" />
-           <MessageSquareQuote size={40} className="absolute bottom-5 right-5 md:bottom-6 md:right-6 text-slate-300 dark:text-slate-600/70 opacity-50 transform rotate-12 scale-x-[-1]" />
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-slate-800 dark:text-slate-100 mb-5 md:mb-6 max-w-xl mx-auto">
-            Loved by Families, Trusted by Seniors
-          </h3>
-          <blockquote className="max-w-xl mx-auto text-slate-600 dark:text-slate-300 italic text-base sm:text-lg md:text-xl leading-relaxed">
-            &quot;Cyber Guardians has given us immense peace of mind knowing Mom is protected online. The app is so easy for her to use, and the educational videos are a great touch!&quot;
-            <footer className="mt-4 md:mt-5 text-sm sm:text-base text-slate-500 dark:text-slate-400 font-medium">
-                <span className="font-semibold text-slate-700 dark:text-slate-300">- A Grateful Daughter</span>, CA
-            </footer>
-          </blockquote>
-        </div>
-
       </div>
     </section>
   );
