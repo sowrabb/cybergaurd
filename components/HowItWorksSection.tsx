@@ -64,7 +64,7 @@ const HowItWorksSection = () => {
             Getting Started is as Easy as 1-2-3
           </h2>
           <p className="max-w-[800px] text-slate-600 text-base sm:text-lg md:text-xl/relaxed dark:text-slate-300 leading-relaxed">
-            We've designed Cyber Guardians to be intuitive and straightforward, providing powerful protection without the hassle. Follow these simple steps to secure your digital life.
+            We&apos;ve designed Cyber Guardians to be intuitive and straightforward, providing powerful protection without the hassle. Follow these simple steps to secure your digital life.
           </p>
         </div>
         <div className="max-w-2xl lg:max-w-3xl mx-auto flex flex-col items-center">

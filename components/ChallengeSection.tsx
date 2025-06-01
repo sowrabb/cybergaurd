@@ -14,7 +14,7 @@ const ChallengeSection = () => {
             Seniors: A Prime Target for Sophisticated Scams
           </h2>
           <p className="max-w-[700px] md:max-w-[800px] text-slate-600 text-sm sm:text-base md:text-lg/relaxed dark:text-slate-300 leading-relaxed sm:leading-relaxed">
-            Online and phone scams are becoming alarmingly sophisticated, specifically preying on the trust and vulnerability of seniors. This often leads to devastating financial losses and severe emotional distress. It's a widespread issue demanding urgent attention and proactive solutions to safeguard our elderly community.
+            Online and phone scams are becoming alarmingly sophisticated, specifically preying on the trust and vulnerability of seniors. This often leads to devastating financial losses and severe emotional distress. It&apos;s a widespread issue demanding urgent attention and proactive solutions to safeguard our elderly community.
           </p>
         </div>
       </div>

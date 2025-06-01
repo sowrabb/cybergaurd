@@ -46,7 +46,7 @@ const WhyChooseUsSection = () => {
             Experience True Peace of Mind
           </h2>
           <p className="max-w-[800px] text-slate-600 text-base sm:text-lg md:text-xl/relaxed dark:text-slate-300 leading-relaxed">
-            Cyber Guardians isn't just an app; it's a commitment to the safety and well-being of seniors in an increasingly digital world. We prioritize ease of use, robust security, and compassionate support.
+            Cyber Guardians isn&apos;t just an app; it&apos;s a commitment to the safety and well-being of seniors in an increasingly digital world. We prioritize ease of use, robust security, and compassionate support.
           </p>
         </div>
         
@@ -73,7 +73,7 @@ const WhyChooseUsSection = () => {
             Loved by Families, Trusted by Seniors
           </h3>
           <blockquote className="max-w-xl mx-auto text-slate-600 dark:text-slate-300 italic text-base sm:text-lg md:text-xl leading-relaxed">
-            "Cyber Guardians has given us immense peace of mind knowing Mom is protected online. The app is so easy for her to use, and the educational videos are a great touch!"
+            &quot;Cyber Guardians has given us immense peace of mind knowing Mom is protected online. The app is so easy for her to use, and the educational videos are a great touch!&quot;
             <footer className="mt-4 md:mt-5 text-sm sm:text-base text-slate-500 dark:text-slate-400 font-medium">
                 <span className="font-semibold text-slate-700 dark:text-slate-300">- A Grateful Daughter</span>, CA
             </footer>

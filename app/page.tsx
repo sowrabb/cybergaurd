@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import ChallengeSection from "@/components/ChallengeSection";
 import SolutionSection from "@/components/SolutionSection";
