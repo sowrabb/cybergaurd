@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Shield, Brain, HeartHandshake, CheckCircle2, TrendingUp, MessageSquareQuote } from 'lucide-react';
+import { Users, Shield, Brain, HeartHandshake, CheckCircle2, TrendingUp } from 'lucide-react';
 
 const WhyChooseUsSection = () => {
   const benefits = [
