@@ -43,7 +43,7 @@ const SolutionSection = () => {
               <div className="w-full h-full bg-slate-100 dark:bg-slate-800 rounded-[32px] sm:rounded-[36px] overflow-hidden">
                 {/* Screen Content */}
                 <Image 
-                  src={`${prodBasePath}/logos/3.png`} 
+                  src={`${prodBasePath}/3.png`} 
                   alt="Cyber Guardian App Screenshot" 
                   width={300} 
                   height={600}

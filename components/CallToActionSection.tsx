@@ -46,7 +46,7 @@ const CallToActionSection = () => {
               <div className="w-full h-full bg-slate-100 dark:bg-slate-800 rounded-[32px] sm:rounded-[36px] overflow-hidden shadow-inner">
                 {/* Screen Content */}
                 <Image 
-                  src={`${prodBasePath}/logos/2.png`} 
+                  src={`${prodBasePath}/2.png`} 
                   alt="Cyber Guardian App on Phone Mockup" 
                   width={300} 
                   height={600}
