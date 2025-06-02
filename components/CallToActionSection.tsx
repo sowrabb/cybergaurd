@@ -4,6 +4,9 @@ import Image from 'next/image';
 import { Rocket, Send } from 'lucide-react';
 
 const CallToActionSection = () => {
+  const isProd = process.env.NODE_ENV === 'production';
+  const prodBasePath = isProd ? '/cybergaurd' : '';
+
   return (
     <section id="cta" className="w-full py-16 sm:py-20 md:py-24 lg:py-28 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 dark:from-blue-700 dark:via-indigo-700 dark:to-purple-800 text-white overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
@@ -43,7 +46,7 @@ const CallToActionSection = () => {
               <div className="w-full h-full bg-slate-100 dark:bg-slate-800 rounded-[32px] sm:rounded-[36px] overflow-hidden shadow-inner">
                 {/* Screen Content */}
                 <Image 
-                  src="/logos/2.png" 
+                  src={`${prodBasePath}/logos/2.png`} 
                   alt="Cyber Guardian App on Phone Mockup" 
                   width={300} 
                   height={600}

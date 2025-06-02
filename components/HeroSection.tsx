@@ -4,6 +4,9 @@ import Image from 'next/image';
 import { ChevronRight } from 'lucide-react'; // Icon for button
 
 const HeroSection = () => {
+  const isProd = process.env.NODE_ENV === 'production';
+  const prodBasePath = isProd ? '/cybergaurd' : '';
+
   return (
     <section className="w-full overflow-hidden bg-gradient-to-br from-slate-50 via-slate-100 to-slate-200 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
       <div className="container px-4 md:px-6 py-10 sm:py-14 md:py-20 lg:py-24 mx-auto">
@@ -28,7 +31,7 @@ const HeroSection = () => {
               alt="Senior citizen using a smartphone with a smile, representing digital empowerment through Cyber Guardian"
               className="object-cover"
               fill
-              src="/hero.jpg"
+              src={isProd ? `${prodBasePath}/hero.jpg` : "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?q=80&w=1920&auto=format&fit=crop"}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 50vw"
               priority
             />

@@ -12,15 +12,18 @@ const Footer = () => {
     { href: "#faq", label: "FAQ" }, // Added FAQ
   ];
 
+  const isProd = process.env.NODE_ENV === 'production';
+  const prodBasePath = isProd ? '/cybergaurd' : '';
+
   return (
     <footer className="border-t border-slate-200/80 dark:border-slate-700/60 bg-slate-100 dark:bg-slate-950/90 py-10 sm:py-12 text-sm overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-8 items-center mb-8 sm:mb-10">
           {/* Left Side: Logo and Copyright */}
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start text-center md:text-left space-y-3 sm:space-y-0 sm:space-x-4">
-            <Link href="/" className="group shrink-0">
+            <Link href={`${prodBasePath}/`} className="group shrink-0">
               <Image 
-                src="/4.png" 
+                src={`${prodBasePath}/4.png`} 
                 alt="Cyber Guardian Logo"
                 width={170} 
                 height={38} 
