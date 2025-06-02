@@ -20,7 +20,7 @@ export default function Home() {
       {/*
         Hero Section
         The Challenge
-        Introducing Cyber Guardians (Our Solution)
+        Introducing Cyber Guardian (Our Solution)
         Core Features Showcase
         How It Works (Simplified)
         Why Choose Us / Peace of Mind

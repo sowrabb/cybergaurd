@@ -120,3 +120,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Perspective styles for CTA section phone mockup */
+.perspective {
+  perspective: 1000px;
+}
+.rotate-y-10 {
+  transform: rotateY(10deg);
+}
+.hover\:rotate-y-0:hover {
+  transform: rotateY(0deg);
+}

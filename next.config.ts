@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const GITHUB_REPO_NAME = 'cybergaurd'; // Your repository name
+const GITHUB_REPO_NAME = 'cyberguard'; // Your repository name
 
 /** @type {import('next').NextConfig} */
 const nextConfig: NextConfig = {

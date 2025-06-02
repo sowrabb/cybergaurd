@@ -20,8 +20,8 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start text-center md:text-left space-y-3 sm:space-y-0 sm:space-x-4">
             <Link href="/" className="group shrink-0">
               <Image 
-                src="/3.png" 
-                alt="Cyber Guardians Logo"
+                src="/4.png" 
+                alt="Cyber Guardian Logo"
                 width={170} 
                 height={38} 
                 className="transition-opacity duration-300 group-hover:opacity-80 h-auto" // Added h-auto for better responsive scaling with fixed width

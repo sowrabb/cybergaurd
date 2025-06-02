@@ -25,10 +25,10 @@ const HeroSection = () => {
           </div>
           <div className="relative w-full aspect-[4/3] sm:aspect-video max-h-[280px] xs:max-h-[320px] sm:max-h-[360px] md:max-h-[420px] lg:max-h-[480px] rounded-lg md:rounded-xl overflow-hidden shadow-xl hover:shadow-blue-500/20 dark:hover:shadow-blue-400/20 transition-shadow duration-500 mx-auto lg:mx-0 mt-4 sm:mt-0">
             <Image
-              alt="Elderly woman smiling while using her phone, with a computer and security icons illustrating digital safety."
+              alt="Senior citizen using a smartphone with a smile, representing digital empowerment through Cyber Guardian"
               className="object-cover"
               fill
-              src="/cybergaurd/hero.jpg"
+              src="/hero.jpg"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 50vw"
               priority
             />

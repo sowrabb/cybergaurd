@@ -25,7 +25,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full border-b border-slate-200/70 bg-white/90 dark:border-slate-700/60 dark:bg-slate-950/90 backdrop-blur-lg">
       <div className="container flex h-20 max-w-screen-xl items-center justify-between mx-auto px-4 md:px-8">
         <Link href="/" className="flex items-center group">
-          <Image src="/cybergaurd/3.png" alt="Cyber Guardians Logo" width={270} height={60} className="transition-opacity duration-300 group-hover:opacity-90" priority />
+          <Image src="/4.png" alt="Cyber Guardian Logo" width={270} height={60} className="transition-opacity duration-300 group-hover:opacity-90" priority />
         </Link>
 
         <nav className="hidden md:flex items-center space-x-2 lg:space-x-4">
@@ -56,7 +56,7 @@ const Navbar = () => {
             <SheetContent side="right" className="w-full max-w-xs bg-white dark:bg-slate-950 p-6">
               <div className="flex justify-between items-center mb-8">
                 <Link href="/" className="flex items-center group" onClick={() => setIsMobileMenuOpen(false)}>
-                  <Image src="/cybergaurd/3.png" alt="Cyber Guardians Logo" width={225} height={50} />
+                  <Image src="/4.png" alt="Cyber Guardian Logo" width={225} height={50} />
                 </Link>
                 <SheetClose asChild>
                    <Button variant="ghost" size="icon" className="text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">

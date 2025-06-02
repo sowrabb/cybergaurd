@@ -61,7 +61,7 @@ const FeaturesSection = () => {
             Comprehensive Protection, Simply Delivered
           </h2>
           <p className="max-w-[800px] text-slate-600 text-base sm:text-lg md:text-xl/relaxed dark:text-slate-300 leading-relaxed">
-            Cyber Guardians is packed with features designed for ease of use and robust security, empowering seniors in their digital lives.
+            Cyber Guardian is packed with features designed for ease of use and robust security, empowering seniors in their digital lives.
           </p>
         </div>
         <div className="grid gap-5 sm:gap-6 md:gap-8 sm:grid-cols-2 lg:grid-cols-4">
